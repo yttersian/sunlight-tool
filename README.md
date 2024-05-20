@@ -1,6 +1,6 @@
 # sunlight
 
-This simple sunlight tool script calculates the days last solstice, the equivalent day (in sunlight hours) from the period leading up to it, and the next solstice or equinox event.
+This simple sunlight tool calculates the days since last solstice, the equivalent day (in sunlight hours) from the period leading up to it, and the next solstice or equinox event.
 
 ### Dependencies
 
