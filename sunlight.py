@@ -1,3 +1,9 @@
+# /// script
+# dependencies = [
+#     "ephem",
+# ]
+# ///
+
 from datetime import datetime
 import ephem
 

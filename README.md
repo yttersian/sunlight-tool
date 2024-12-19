@@ -5,7 +5,17 @@ This simple sunlight tool calculates the days since last solstice, the equivalen
 ### Dependencies
 
 - Python 3.x
-- `ephem` library
+- `ephem`
+
+### Usage
+
+The script supports inline metadata, so if you are using [uv](https://docs.astral.sh/uv/), you can can simply add the following function (or alias) to your shell config:
+
+```zsh
+function sunlight {
+    uv run --quiet /path/to/sunlight-tool/sunlight.py
+}
+```
 
 ### Example output
 
