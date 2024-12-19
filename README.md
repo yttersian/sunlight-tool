@@ -9,7 +9,7 @@ This simple sunlight tool calculates the days since last solstice, the equivalen
 
 ### Usage
 
-The script supports inline metadata, so if you are using [uv](https://docs.astral.sh/uv/), you can can simply add the following function (or alias) to your shell config:
+The script includes inline metadata, so if you are using [uv](https://docs.astral.sh/uv/), you can can simply add the following function (or alias) to your shell config:
 
 ```zsh
 function sunlight {
