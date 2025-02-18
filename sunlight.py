@@ -5,6 +5,7 @@
 # ///
 
 from datetime import datetime
+
 import ephem
 
 
@@ -31,11 +32,11 @@ days_since_solstice = now - last_solstice
 equivalent_daylight_date = last_solstice - days_since_solstice
 
 print(
-    f"{days_since_solstice.days} days since solstice (equivalent of {equivalent_daylight_date.strftime('%d %B %Y')})"
+    f"{days_since_solstice.days} days since solstice (equivalent of {equivalent_daylight_date:%d %B %Y})"
 )
 
 next_event_type, next_event_date = get_next_event()
 next_event_diff = next_event_date - now
 print(
-    f"Next {next_event_type} in {next_event_diff.days} days ({next_event_date.strftime('%d %B %Y')})"
+    f"Next {next_event_type} in {next_event_diff.days} days ({next_event_date:%d %B %Y})"
 )
